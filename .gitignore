@@ -1,0 +1,32 @@
+# ── Build / deps ──────────────────────────────────────────────────────────────
+node_modules/
+dist/
+.netlify/
+
+# ── Environment files ─────────────────────────────────────────────────────────
+# .env.example IS committed (safe to share — no real secrets)
+.env
+.env.local
+.env.*.local
+
+# ── OS / editor noise ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+
+# ── Lock files (Netlify installs fresh; local locks are dev-only) ─────────────
+package-lock.json
+yarn.lock
+
+# ── Old mockup iterations (canonical is Mockups/perfect-storm-v08.html) ───────
+Mockups/perfect-storm-mockup.jsx
+Mockups/perfect-storm-mockup-v04.jsx
+Mockups/perfect-storm-preview.jsx
+Mockups/perfect-storm-v05.html
+Mockups/perfect-storm-v06.html
+Mockups/perfect-storm-v06-demo.html
+Mockups/perfect-storm-v07.html
+Mockups/preview.html
+
+# ── Setup scripts with credentials ──────────────────────────────────────────
+setup-git-push.ps1
